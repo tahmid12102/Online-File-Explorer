@@ -1,0 +1,63 @@
+/* Breadcrumb */
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-weight: bold;
+}
+
+.breadcrumb{
+    background-color: #F4B41A;
+    border-radius: 0;
+}
+
+a, a:hover{
+    color:#143D59;
+}
+
+
+/* Table */
+table{
+    color: #143D59;
+    margin: 100px 10px;
+}
+
+thead{
+    background-color:#143D59;
+    color: #F4B41A;
+    cursor: pointer;
+}
+
+ion-icon{
+    font-size: 24px;
+    color: #F4B41A;
+}
+
+tbody{
+    display: block;
+    height: 300px;
+    overflow-y: scroll;
+}
+
+thead, tbody tr{
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+
+/* Footer */
+.footer{
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color:#F4B41A;
+    font-weight: bold;
+}
+
+.footerText{
+    position: absolute;
+    padding-left: 70px;
+
+}
